@@ -102,12 +102,12 @@ class _CalculatorViewState extends State<CalculatorView> {
                 myButtons(
                     index: 5,
                     onPressed: () {
-                      context.read<CalculatorCubit>().addNumber("5");
+                      context.read<CalculatorCubit>().addNumber("8");
                     }),
                 myButtons(
                     index: 6,
                     onPressed: () {
-                      context.read<CalculatorCubit>().addNumber("6");
+                      context.read<CalculatorCubit>().addNumber("9");
                     }),
 
                 // /
